@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Joao Widget Test</title>
-</head>
-<script type="text/javascript">var loc = "https://web.data-8.co.uk/data-8couk-a7vgp/pages/";</script>
-<script type="text/javascript" src="https://cdn-eu.clickdimensions.com/web/v10/CDWidget.js"></script>
-<div pageID="walrbyw9ee2braaiskn1lw"></div>
+<form action=https://analytics-eu.clickdimensions.com/forms/h/akddcKN8zmkSQHy2LjYsK7 method=“post”>
+	<fieldset> 
+		<label><span>First Name</span><input name=“FirstName” type=“text”/></label> 
+		<label><span>Last Name</span><input name=“LastName” type=“text”/></label> 
+		<label><span>Email Address</span><input name=“Email” type=“email”/></label> 
+		<div class=buttons> <button type=“submit” value=“Send”>Send</button> </div> 
+	</fieldset>
+</form>
+
+<script type="text/javascript">
+  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com');
+  cdAnalytics.setAccountKey('aVNUYFTkM064KVtKGw6Ujw');
+  cdAnalytics.setDomain('michela-404.github.io');
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore));
+  cdAnalytics.trackPage();
+</script>
 </body>
 </html>
