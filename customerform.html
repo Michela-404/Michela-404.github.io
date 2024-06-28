@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <body>
-  <h1> Form Nyhetsbrev </h1>
-<form id="Nyhetsbrev" action="https://analytics-eu.clickdimensions.com/forms/h/aiYKtphITTEyISc5taE7FA" method="post">
+  <h1> Pipe Cloud </h1>
+<form id="Pipe Cloud" action="https://analytics-eu.clickdimensions.com/forms/h/aexIXpeHA50azTeNPgLLtk" method="post">
 	<fieldset> 
-             Mobile Phone: <input type="text" name="phone"/> <br>
-	     Email:  <input type="email" name="email" required/> <br>
-	     Preferences: <input type="checkbox" name="pref_nyhetsbrev"/> <br>
-		    <input type="submit" value="submit">
+	Nombre:  <input type="text" name="nombre" required/> <br>
+	Correo:  <input type="email" name="correo" required/> <br>
+	Sector: <input type="checkbox" name="sector"/> <br>
+	Pais: <input type="text" name="pais"/> <br>
+	Provincia: <input type="text" name="provincia"/> <br>
+	Proyecto: <input type="multi-select" name="proyecto"/> <br>
+	Origen Cliente Potencial: <input type="hidden" name="origen cliente potencial"/> <br>
+	Consentimento Usuario: <input type="checkbox" name="consentimiento comunicacion"/> <br>
+		<input type="submit" value="submit">
 	</fieldset>
 </form>
 
@@ -14,7 +19,7 @@
 	
 <script type="text/javascript">
   var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com');
-  cdAnalytics.setAccountKey('aLKYNPvVqzUakNIphBi7Q');
+  cdAnalytics.setAccountKey('azIq8Lv4X9UW2F086FFCrw');
   cdAnalytics.setDomain('michela-404.github.io');
   cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore));
   cdAnalytics.trackPage();
