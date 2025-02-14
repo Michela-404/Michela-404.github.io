@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> CUSTOMER FORM </title>
-</head>
 <body>
-  <h1> TEST </h1>
+  <h1> Checkout </h1>
+<form id="IF_registrations_checkout" action="https://analytics-eu.clickdimensions.com/forms/h/aTHZe97OnUyX475UUU9qgw" method="post">
+	<fieldset> 
+        First Name: <input type="text" name="firstname"/> <br>
+        Last Name: <input type="text" name="lastname"/> <br>
+        Email:  <input type="email" name="email"/> <br>
+        Phone: <input type="text" name="phone"/> <br>
+        Address: <input type="text" name="afg_address"/> <br>
+	    Area: <select name="af_area">
+ 		    <option value="1">Abu Dhabi</option>
+  		    <option value="4">Ajman</option>
+  		    <option value="0">Al Ain</option>
+            <option value="2">Dubai</option>
+  		    <option value="7">Fujairah</option>
+            <option value="6">Ras Al-Khaimah</option>
+            <option value="3">Sharjah</option>
+            <option value="5">Umm Al Quwain</option>
+		    </select>
+        City: <input type="text" name="afg_city"/> <br>
+		    <input type="submit" value="submit">
+	</fieldset>
+</form>
 
-<script type="text/javascript">var loc = "https://analytics-eu.clickdimensions.com/sectracom-a06va/pages/";</script>
-<script type="text/javascript" src="https://cdn-eu.clickdimensions.com/web/v10/CDWidget.js"></script>
-<div pageID="ojpzkypyeeebb1bl84qk0q"></div>
+<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script>
 
+<script type="text/javascript">
+  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com');
+  cdAnalytics.setAccountKey('amKpU26A6kSAvyzGShh6Q');
+  cdAnalytics.setDomain(michela-404.github.io );
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore));
+  cdAnalytics.trackPage();
+</script>
+	
 </body>
 </html>
